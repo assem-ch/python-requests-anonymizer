@@ -1,4 +1,4 @@
-# python-anonymizer
+# python-requests-anonymizer
 
 The torsocks proxy must be running on port 9050, start it with the command:
 
