@@ -1,9 +1,7 @@
 import grequests
 import requests
-from stem import Signal
-from stem.control import Controller
-TIMEOUT = 5
 
+TIMEOUT = 5
 def get(**args):
 	args['proxies'] = {'http': 'socks5://127.0.0.1:9050', 'https': 'socks5://127.0.0.1:9050'}
 	args['timeout'] = TIMEOUT
